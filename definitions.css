@@ -36,7 +36,7 @@ This file loads the fonts and defines the colors you will use. It also resets so
   --accent-color: #3da639;
   --footer-text-color: #FFFFFF;
   --footer-background-color: #1D1D1D;
-  --links-hover:#7180B9;
+  --links-hover:black;
   --button:#E3D8F1;
 }
 
