@@ -62,7 +62,7 @@ main{
 .name-container{
     background-color: green;
     width: 850px;
-    height: 450px;
+    height: 470px;
     margin-left: auto;
     display: flex;
     flex-direction: row;
@@ -77,10 +77,11 @@ main{
     color: black;
 }
 .text{
-    max-width: 270px;
+    max-width: 300px;
     margin-top: 10px;
     color: rgb(11, 10, 10);
     line-height: 1.8;
+    font-size: 19px;
     
 }
 .image>img{
