@@ -11,6 +11,9 @@ body{
     color: white;
     overflow-x: hidden;
 }
+a{
+    text-decoration: none;
+}
 #navbar {
     background-color:var(--nav-background-color); 
     /* background-color: #588c7e; */
