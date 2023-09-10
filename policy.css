@@ -10,9 +10,8 @@ body{
     /* font-family: 'Oswald', sans-serif;
     font-family: 'Roboto Condensed', sans-serif; */
 }
-a:hover{
-    color: var(--links-hover)
-}
+
+
 #navbar {
     background-color:var(--nav-background-color); 
     /* background-color: #588c7e; */
@@ -27,6 +26,9 @@ a:hover{
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
+}
+.logo a:hover{
+    color: var(--links-hover);
 }
 
 .nav-links {
@@ -93,6 +95,9 @@ h3>p{
     font-size: 20px;
     font-weight: bold;
 }
+.footer-logo a:hover {
+    color: var(--links-hover);
+}
 
 .footer-links {
     list-style: none;
@@ -107,7 +112,9 @@ h3>p{
     font-size: 14px;
     font-weight: 400;
 }
-
+.footer-links li a:hover{
+    color: var(--links-hover);
+}
 .footer-text {
     margin: 0;
     font-size: 12px;
