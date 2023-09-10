@@ -277,7 +277,9 @@ a:hover{
     font-size: 14px;
     font-weight: 400;
 }
-
+.footer-links:hover{
+color: #050606;
+}
 .footer-text {
     margin: 0;
     font-size: 12px;
