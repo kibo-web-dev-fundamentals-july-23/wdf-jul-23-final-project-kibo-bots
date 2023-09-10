@@ -53,6 +53,7 @@ a:hover{
 .nav-links li a:hover {
     color:var(--links-hover);
 }
+
 .h1{
     margin: 20px;
 
