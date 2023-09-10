@@ -16,7 +16,6 @@ toluSection.addEventListener("mouseleave", function(){
     console.log("click")
     toluContent.classList.add("hidden")
     main.style.width="600px";
-    main.style.backgroundColor = 'black';
     omadaName.classList.remove("hidden")
     benName.classList.remove("hidden")
 
@@ -36,7 +35,6 @@ omadaSection.addEventListener("click", function(){
 omadaSection.addEventListener("mouseleave", function(){
     console.log("something happened")
     omadaContent.classList.add("hidden")
-    main.style.backgroundColor = 'black';
     toluName.classList.remove("hidden")
     benName.classList.remove("hidden")
 })
@@ -56,7 +54,6 @@ benSection.addEventListener("click", function(){
 benSection.addEventListener("mouseleave", function(){
     console.log("something happened")
     benContent.classList.add("hidden")
-    main.style.backgroundColor = 'black';
     omadaName.classList.remove("hidden")
     toluName.classList.remove("hidden")
 })
